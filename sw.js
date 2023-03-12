@@ -1,7 +1,9 @@
 var APP_PREFIX = 'radio_'       // Identifier for this app (this needs to be consistent across every cache update)
 var VERSION = 'version_03'      // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
-var URLS = []
+var URLS = [
+  'radio/images/'
+]
 
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
