@@ -20,7 +20,7 @@ body {
 }
 
 .item .icon {
-    width: 200px;
+    width: 198px;
 }
 
 .item .name {
@@ -52,7 +52,7 @@ body {
 @media all and (max-width: 800px) {
 
     .item .icon {
-        width: 100px;
+        width: 98px;
     }
 
     .item .name {
