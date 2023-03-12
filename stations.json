@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Deutschlandfunk",
+        "icon": "images/deutschlandfunk.svg",
+        "url": "https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac"
+    },
+    {
+        "name": "Deutschlandfunk Kultur",
+        "icon": "images/deutschlandfunk-kultur.svg",
+        "url": "https://st02.sslstream.dlf.de/dlf/02/high/aac/stream.aac"
+    },
+    {
+        "name": "Deutschlandfunk Nova",
+        "icon": "images/deutschlandfunk-nova.svg",
+        "url": "https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac"
+    },
+    {
+        "name": "bigFM Rheinland-Pfalz",
+        "icon": "images/bigFM.svg",
+        "url": "https://stream.bigfm.de/rlp/aac-128"
+    },
+    {
+        "name": "Rock Antenne Deutschrock",
+        "icon": "images/rock-antenne.svg",
+        "url": "https://s8-webradio.rockantenne.de/deutschrock/stream/aacp"
+    },
+    {
+        "name": "Rock Antenne",
+        "icon": "images/rock-antenne.svg",
+        "url": "https://stream.rockantenne.de/rockantenne/stream/aacp"
+    },
+    {
+        "name": "Radio Freccia",
+        "icon": "images/freccia.svg",
+        "url": "https://streamingv2.shoutcast.com/radiofreccia"
+    },
+    {
+        "name": "Radiofrance FIP",
+        "icon": "images/radiofrance-fip.svg",
+        "url": "https://icecast.radiofrance.fr/fip-midfi.aac"
+    },
+    {
+        "name": "HR1",
+        "icon": "images/hr1.svg",
+        "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high"
+    },
+    {
+        "name": "HR2",
+        "icon": "images/hr2.svg",
+        "url": "https://dispatcher.rndfnk.com/hr/hr2/live/mp3/high"
+    },
+    {
+        "name": "HR3",
+        "icon": "images/hr3.svg",
+        "url": "https://dispatcher.rndfnk.com/hr/hr3/live/mp3/high"
+    },
+    {
+        "name": "SWR1 Rheinland-Pfalz",
+        "icon": "images/swr1-rp.svg",
+        "url": "https://liveradio.swr.de/sw331ch/swr1rp/"
+    },
+    {
+        "name": "SWR2",
+        "icon": "images/swr2.svg",
+        "url": "https://liveradio.swr.de/sw331ch/swr2/"
+    },
+    {
+        "name": "SWR3",
+        "icon": "images/swr3.svg",
+        "url": "https://liveradio.swr.de/sw331ch/swr3/"
+    },
+    {
+        "name": "SWR Aktuell",
+        "icon": "images/swr-aktuell.svg",
+        "url": "https://liveradio.swr.de/sw331ch/swraktuell/"
+    },
+    {
+        "name": "SWR4 Rheinland-Pfalz",
+        "icon": "images/swr4-rp.svg",
+        "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
+    },
+    {
+        "name": "ffn Niedersachsen",
+        "icon": "images/ffn.svg",
+        "url": "https://ffn-stream26.radiohost.de/ffn_mp3-192"
+    },
+    {
+        "name": "MDR Aktuell",
+        "icon": "images/mdr-aktuell.svg",
+        "url": "http://mdr-284340-0.cast.mdr.de/mdr/284340/0/mp3/high/stream.mp3"
+    },
+    {
+        "name": "MDR Klassik",
+        "icon": "images/mdr-klassik.svg",
+        "url": "http://mdr-284350-0.cast.mdr.de/mdr/284350/0/mp3/high/stream.mp3"
+    },
+    {
+        "name": "MDR Kultur",
+        "icon": "images/mdr-kultur.svg",
+        "url": "http://mdr-284310-0.cast.mdr.de/mdr/284310/0/mp3/high/stream.mp3"
+    },
+    {
+        "name": "NDR1 Hannover",
+        "icon": "images/ndr1-niedersachsen.svg",
+        "url": "http://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3"
+    },
+    {
+        "name": "NDR Kultur",
+        "icon": "images/ndr-kultur.svg",
+        "url": "http://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3"
+    },
+    {
+        "name": "NDR Info",
+        "icon": "images/ndr-info.svg",
+        "url": "http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3 "
+    },
+    {
+        "name": "LORA München 92.4",
+        "icon": "images/lora.svg",
+        "url": "http://live.lora924.de:8000/lora-hq.mp3"
+    },
+    {
+        "name": "Bayern 3",
+        "icon": "images/br3.svg",
+        "url": "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid"
+    },
+    {
+        "name": "BR-Klassik",
+        "icon": "images/br-klassik.svg",
+        "url": "https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high"
+    },
+    {
+        "name": "BR24",
+        "icon": "images/br24.svg",
+        "url": "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid"
+    },
+    {
+        "name": "France Musique",
+        "icon": "images/france-musique.svg",
+        "url": "https://icecast.radiofrance.fr/francemusique-midfi.mp3"
+    },
+    {
+        "name": "BBC Radio 1",
+        "icon": "images/bbc-radio-1.svg",
+        "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_one"
+    },
+    {
+        "name": "BBC Radio 5",
+        "icon": "images/bbc-radio-5.svg",
+        "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk"
+    },
+    {
+        "name": "1LIVE",
+        "icon": "images/1live.svg",
+        "url": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3"
+    },
+    {
+        "name": "WDR2 (Rheinland)",
+        "icon": "images/wdr2.svg",
+        "url": "https://wdr-wdr2-rheinland.icecastssl.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3"
+    },
+    {
+        "name": "WDR3",
+        "icon": "images/wdr3.svg",
+        "url": "https://wdr-wdr3-live.icecastssl.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3"
+    },
+    {
+        "name": "WDR5",
+        "icon": "images/wdr5.svg",
+        "url": "https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3"
+    }
+]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="34.009998"
+   height="34.009998"
+   version="1.1"
+   viewBox="0 0 34.009998 34.009998"
+   id="svg19"
+   sodipodi:docname="deutschlandfunk-nova.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.6116838"
+     inkscape:cx="130.86326"
+     inkscape:cy="16.913562"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <title
+     id="title2">Deutschlandfunk Nova logo</title>
+  <defs
+     id="defs7">
+    <clipPath
+       id="a"
+       transform="translate(0)">
+      <rect
+         width="291"
+         height="34.02"
+         fill="none"
+         id="rect4"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <rect
+     width="34.009998"
+     height="34.009998"
+     fill="#4ac96f"
+     id="rect9"
+     x="0"
+     y="0" />
+  <path
+     d="M 20.9,27.89 H 7.48 V 26.28 H 20.9 Z m 3.77,-6.22 H 7.48 v 2.59 h 17.2 z M 7.48,8 H 20.91 V 6.12 H 7.48 Z m 0,4.84 H 26 V 10 H 7.48 Z m 20.41,2.22 H 7.48 v 4.39 h 20.41 z"
+     fill="#ffffff"
+     id="path13" />
+  <metadata
+     id="metadata304">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Deutschlandfunk Nova logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
