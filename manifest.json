@@ -1,6 +1,7 @@
 {
     "short_name": "Radio",
     "name": "Radio",
+    "description": "Simple internet radio",
     "icons": [
         {
             "src": "/radio/favicon192x192.png",

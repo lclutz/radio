@@ -54,6 +54,13 @@ function playerClicked() {
 }
 
 (() => {
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+            "/radio/sw.js",
+            { scope: "/radio/" }
+        );
+    }
+
     fetch("stations.json")
         .then((response) => response.json())
         .then((json) => setupStations(json));
