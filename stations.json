@@ -87,37 +87,32 @@
     {
         "name": "MDR Aktuell",
         "icon": "images/mdr-aktuell.svg",
-        "url": "http://mdr-284340-0.cast.mdr.de/mdr/284340/0/mp3/high/stream.mp3"
+        "url": "https://mdr-284340-0.sslcast.mdr.de/mdr/284340/0/aac/high/stream.aac"
     },
     {
         "name": "MDR Klassik",
         "icon": "images/mdr-klassik.svg",
-        "url": "http://mdr-284350-0.cast.mdr.de/mdr/284350/0/mp3/high/stream.mp3"
+        "url": "https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/aac/high/stream.aac"
     },
     {
         "name": "MDR Kultur",
         "icon": "images/mdr-kultur.svg",
-        "url": "http://mdr-284310-0.cast.mdr.de/mdr/284310/0/mp3/high/stream.mp3"
+        "url": "https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/aac/high/stream.aac"
     },
     {
         "name": "NDR1 Hannover",
         "icon": "images/ndr1-niedersachsen.svg",
-        "url": "http://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3"
+        "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/aac/low"
     },
     {
         "name": "NDR Kultur",
         "icon": "images/ndr-kultur.svg",
-        "url": "http://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3"
+        "url": "https://icecast.ndr.de/ndr/ndrkultur/live/aac/low"
     },
     {
         "name": "NDR Info",
         "icon": "images/ndr-info.svg",
-        "url": "http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3 "
-    },
-    {
-        "name": "LORA München 92.4",
-        "icon": "images/lora.svg",
-        "url": "http://live.lora924.de:8000/lora-hq.mp3"
+        "url": "https://icecast.ndr.de/ndr/ndrinfo/niedersachsen/aac/low"
     },
     {
         "name": "Bayern 3",
