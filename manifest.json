@@ -3,17 +3,17 @@
     "name": "Radio",
     "icons": [
         {
-            "src": "./favicon192x192.png",
+            "src": "/radio/favicon192x192.png",
             "type": "iamge/png",
             "sizes": "192x192"
         },
         {
-            "src": "./favicon512x512.png",
+            "src": "/radio/favicon512x512.png",
             "type": "iamge/png",
             "sizes": "512x512"
         }
     ],
-    "start_url": "./index.html",
+    "start_url": "/radio/index.html",
     "display": "standalone",
     "theme_color": "#26233a",
     "background_color": "#26233a"
