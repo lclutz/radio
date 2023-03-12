@@ -1,5 +1,6 @@
 {
     "short_name": "Radio",
+    "name": "Radio",
     "icons": [
         {
             "src": "./favicon192x192.png",
@@ -13,5 +14,7 @@
         }
     ],
     "start_url": "./index.html",
-    "display": "standalone"
+    "display": "standalone",
+    "theme_color": "#26233a",
+    "background_color": "#26233a"
 }
