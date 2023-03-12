@@ -40,16 +40,17 @@ function playStation(url) {
     audio.play();
 }
 
-function playerClicked() {
-    console.log("player clicked");
+function stop(button) {
     if (audio === undefined) {
         return;
     }
 
     if (audio.paused) {
         audio.play();
+        button.innerText = "Pause";
     } else {
         audio.pause();
+        button.innerText = "Play";
     }
 }
 
@@ -65,9 +66,14 @@ function playerClicked() {
         .then((response) => response.json())
         .then((json) => setupStations(json));
 
-    const player = document.getElementById("player");
-    player.addEventListener("click", (event) => {
-        event.preventDefault();
-        playerClicked();
+    const pausePlayBtn = document.getElementById("pausePlayBtn");
+    pausePlayBtn.addEventListener("click", (event) => {
+        stop(pausePlayBtn);
+    });
+
+    const volumeSlider = document.getElementById("volumeSlider");
+    volumeSlider.addEventListener("change", (event) => {
+        let vol = event.target.value / 100;
+        audio.volume = vol;
     });
 })();
