@@ -163,5 +163,20 @@
         "name": "WDR5",
         "icon": "images/wdr5.svg",
         "url": "https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3"
+    },
+    {
+        "name": "bluesrockcafe",
+        "icon": "images/bluesrockcafe.jpg",
+        "url": "https://bluesrockcafe.stream.laut.fm/bluesrockcafe"
+    },
+    {
+        "name": "RPR1",
+        "icon": "images/rpr1.svg",
+        "url": "https://streams.rpr1.de/rpr-simulcast-128-aac"
+    },
+    {
+        "name": "Radio Regenbogen",
+        "icon": "images/radio-regenbogen.svg",
+        "url": "https://audiotainment-sw.streamabc.net/atsw-regenbogen1028-aac-128-7085277"
     }
 ]
