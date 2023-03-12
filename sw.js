@@ -2,7 +2,7 @@ var APP_PREFIX = 'radio_'       // Identifier for this app (this needs to be con
 var VERSION = 'version_03'      // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
-  'radio/images/'
+  '/radio/images/'
 ]
 
 // Respond with cached resources
