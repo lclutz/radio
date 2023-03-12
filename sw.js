@@ -9,10 +9,10 @@ var URLS = [
   '/radio/favicon32x32.png',
   '/radio/favicon512x512.png',
   '/radio/favicon96x96.png',
-  '/radio/app.js'
+  '/radio/app.js',
   '/radio/index.html',
   '/radio/stations.json',
-  '/radio/style.css',
+  '/radio/style.css'
 ]
 
 // Respond with cached resources
