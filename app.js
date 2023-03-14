@@ -1,5 +1,9 @@
-let url = "https://icecast.radiofrance.fr/fipjazz-midfi.mp3";
-let audio;
+let appState = {
+    audio: undefined,
+    pausePlayBtn: undefined,
+    volumeSlider: undefined,
+    currentUrl: undefined,
+};
 
 function setupStations(stations) {
     // Sort stations alphabetically
@@ -23,35 +27,47 @@ function setupStations(stations) {
         station_entry.appendChild(station_icon);
         station_entry.appendChild(station_name);
 
-        station_entry.addEventListener("click", (event) => {
-            playStation(station.url);
+        station_entry.addEventListener("click", () => {
+            playAudio(station.url);
         });
 
         container.appendChild(station_entry);
     });
 }
 
-function playStation(url) {
-    if (audio !== undefined) {
-        audio.pause();
-    }
-
-    audio = new Audio(url);
-    audio.play();
-}
-
-function stop(button) {
-    if (audio === undefined) {
+function pausePlay() {
+    if (appState.audio === undefined) {
         return;
     }
 
-    if (audio.paused) {
-        audio.play();
-        button.innerText = "Pause";
+    if (!appState.audio.paused) {
+        pauseAudio();
     } else {
-        audio.pause();
-        button.innerText = "Play";
+        playAudio(appState.url);
     }
+}
+
+function playAudio(url) {
+    if (appState.audio === undefined) {
+        appState.audio = new Audio(url);
+    } else if (appState.url !== url) {
+        appState.audio.pause();
+        appState.audio = new Audio(url);
+    }
+
+    appState.audio.volume = appState.volumeSlider.value / 100;
+    appState.audio.play();
+    appState.url = url;
+    appState.pausePlayBtn.innerText = "Pause";
+}
+
+function pauseAudio() {
+    if (appState.audio === undefined) {
+        return;
+    }
+
+    appState.audio.pause();
+    appState.pausePlayBtn.innerText = "Play";
 }
 
 (() => {
@@ -66,13 +82,13 @@ function stop(button) {
         .then((response) => response.json())
         .then((json) => setupStations(json));
 
-    const pausePlayBtn = document.getElementById("pausePlayBtn");
-    pausePlayBtn.addEventListener("click", (event) => {
-        stop(pausePlayBtn);
+    appState.pausePlayBtn = document.getElementById("pausePlayBtn");
+    appState.pausePlayBtn.addEventListener("click", (event) => {
+        pausePlay();
     });
 
-    const volumeSlider = document.getElementById("volumeSlider");
-    volumeSlider.addEventListener("change", (event) => {
+    appState.volumeSlider = document.getElementById("volumeSlider");
+    appState.volumeSlider.addEventListener("change", (event) => {
         let vol = event.target.value / 100;
         audio.volume = vol;
     });

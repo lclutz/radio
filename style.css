@@ -17,16 +17,16 @@ body {
     display: flex;
     flex-flow: column nowrap;
     margin: 1px;
+    max-width: 194px;
 }
 
 .item .icon {
-    width: 198px;
+    width: 194px;
 }
 
 .item .name {
     font-weight: bold;
     padding: 3px;
-    max-width: 194px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -51,8 +51,12 @@ body {
 /* Medium screens */
 @media all and (max-width: 800px) {
 
+    .item {
+        width: 94px;
+    }
+
     .item .icon {
-        width: 98px;
+        width: 94px;
     }
 
     .item .name {
