@@ -89,7 +89,8 @@ function pauseAudio() {
 
     appState.volumeSlider = document.getElementById("volumeSlider");
     appState.volumeSlider.addEventListener("change", (event) => {
-        let vol = event.target.value / 100;
-        audio.volume = vol;
+        if (appState.audio !== undefined) {
+            appState.audio.volume = appState.volumeSlider.value / 100;
+        }
     });
 })();
