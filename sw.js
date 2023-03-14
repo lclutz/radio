@@ -1,5 +1,5 @@
 var APP_PREFIX = 'radio_'       // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = 'v4'      // Version of the off-line cache (change this value everytime you want to update cache)
+var VERSION = 'v5'      // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   '/radio/favicon.png',
@@ -8,11 +8,7 @@ var URLS = [
   '/radio/favicon192x192.png',
   '/radio/favicon32x32.png',
   '/radio/favicon512x512.png',
-  '/radio/favicon96x96.png',
-  '/radio/app.js',
-  '/radio/index.html',
-  '/radio/stations.json',
-  '/radio/style.css'
+  '/radio/favicon96x96.png'
 ]
 
 // Respond with cached resources
